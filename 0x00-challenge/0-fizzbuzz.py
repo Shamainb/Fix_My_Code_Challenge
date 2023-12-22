@@ -33,6 +33,7 @@ if __name__ == '__main__':
         print("Missing number")
         print("Usage: ./0-fizzbuzz.py <number>")
         print("Example: ./0-fizzbuzz.py 89")
+        print("/n")
         sys.exit(1)
 
     number = int(sys.argv[1])
